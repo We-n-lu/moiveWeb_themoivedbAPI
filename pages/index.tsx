@@ -18,7 +18,9 @@ import Recommend from "../components/Recommend";
 import { recommendTool } from "../utils/recommendTool";
 import NextLink from "next/link";
 
-interface IndexProps {}
+interface IndexProps {
+  
+}
 
 const Index: React.FC<IndexProps> = ({}) => {
   const router = useRouter();
